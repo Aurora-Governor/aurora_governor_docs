@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Governor - Provable AI Governance</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            line-height: 1.6;
+            color: #e8e8e8;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tagline {
+            font-size: 1.2em;
+            color: #a0a0b0;
+            font-weight: 300;
+        }
+        
+        section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #667eea;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #d0d0d8;
+        }
+        
+        ul {
+            margin: 15px 0 15px 25px;
+            color: #d0d0d8;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+            font-size: 0.9em;
+            color: #a0cfff;
+        }
+        
+        pre {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        pre code {
+            background: none;
+            padding: 0;
+            color: #a0cfff;
+        }
+        
+        strong {
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .governance-types {
+            display: grid;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .gov-type {
+            background: rgba(102, 126, 234, 0.1);
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        
+        .gov-type strong {
+            color: #667eea;
+            font-size: 1.1em;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .footer p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+        
+        .highlight-box {
+            background: rgba(102, 126, 234, 0.15);
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aurora Governor</h1>
+            <p class="tagline">A provable governance substrate for AI reasoning</p>
+        </header>
+
+        <section>
+            <h2>What it does</h2>
+            <p>Aurora Governor produces cryptographically auditable governance decisions—<strong>STOP</strong>, <strong>CLARIFY</strong>, and <strong>REFUSE</strong>—as first-class outcomes, not error states.</p>
+            <p>Every governed non-answer is logged as a forensic envelope with deterministic hash-chaining and canonicalization, making AI behavior replayable and verifiable.</p>
+        </section>
+
+        <section>
+            <h2>Why it matters</h2>
+            <p>AI systems that make consequential decisions must be able to:</p>
+            <ul>
+                <li>Refuse inadmissible actions</li>
+                <li>Request clarification when entities are ambiguous</li>
+                <li>Stop when context is insufficient</li>
+            </ul>
+            <p>These aren't failures. They're governed outcomes that deserve the same forensic rigor as accepted responses.</p>
+        </section>
+
+        <section>
+            <h2>Governance halts</h2>
+            <p>Aurora implements three governed non-answer types:</p>
+            
+            <div class="governance-types">
+                <div class="gov-type">
+                    <strong>STOP</strong> — insufficient context to proceed safely
+                </div>
+                <div class="gov-type">
+                    <strong>CLARIFY</strong> — entity ambiguity requires disambiguation
+                </div>
+                <div class="gov-type">
+                    <strong>REFUSE</strong> — action is inadmissible under current policy
+                </div>
+            </div>
+            
+            <p>Each halt produces a <code>kind: aurora.event</code> envelope suitable for compliance audit and deterministic replay.</p>
+        </section>
+
+        <section>
+            <h2>Forensic guarantees</h2>
+            <ul>
+                <li>Hash-chained event sequences</li>
+                <li>Canonical serialization (no whitespace drift)</li>
+                <li>Deterministic replay from JSONL logs</li>
+                <li>Cryptographic verification of governance decisions</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Use cases</h2>
+            <ul>
+                <li>Legal-tech systems requiring auditable refusals</li>
+                <li>Compliance infrastructure for regulated AI</li>
+                <li>Governance substrates for agentic systems</li>
+                <li>Policy-aware reasoning kernels</li>
+            </ul>
+        </section>
+
+        <div class="footer">
+            <div class="highlight-box">
+                <p><strong>Source code available for evaluation under controlled access.</strong></p>
+                <p>For inquiries: <a href="mailto:meg.stokes.ai@gmail.com">meg.stokes.ai@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
