@@ -1,3 +1,9 @@
+---
+layout: default
+title: Aurora Healthcare POC
+---
+
+
 # Aurora Healthcare POC
 
 ```text
