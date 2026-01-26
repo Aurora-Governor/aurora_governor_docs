@@ -1,3 +1,9 @@
+---
+layout: default
+title: Commercial
+---
+
+
 # Commercial Use
 
 The Aurora Governor architecture is patent-pending and licensed for 
