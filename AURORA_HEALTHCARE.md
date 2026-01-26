@@ -35,8 +35,8 @@ Plan: ECG, troponin, aspirin (standard chest pain pathway)
 
 SCENARIO 2 — DENIAL CONFLICT (black-box failure)
 
-Chief complaint: chest pain
-History: Patient denies chest pain (contradiction not handled)
+Chief complaint: chest pain (triage)
+History: Patient denies current chest pain
 Assessment: Myocardial infarction
 Plan: ECG, troponin, aspirin
 
