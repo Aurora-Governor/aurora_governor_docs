@@ -48,4 +48,4 @@ Each halt produces a `kind: aurora.event` envelope suitable for compliance audit
 
 **Source code available for evaluation under controlled access.**
 
-For inquiries: meg.stokes.ai@gmail.com
+For inquiries: margaret.stokes.ai@gmail.com
