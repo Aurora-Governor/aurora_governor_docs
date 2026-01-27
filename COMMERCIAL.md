@@ -16,7 +16,7 @@ Commercial implementation requires a separate license.
 For commercial licensing, integration partnerships, or acquisition 
 discussions:
 
-**Email:** meg.stokes.ai@gmail.com  
+**Email:** margaret.stokes.ai@gmail.com  
 **LinkedIn:** [[Margaret Stokes]](https://www.linkedin.com/in/margaret-s-12830614/)]
 
 ## Current Applications
