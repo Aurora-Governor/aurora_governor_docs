@@ -1,3 +1,19 @@
+## Repository Structure
+
+This repository documents the Aurora Governor kernel and its application as an AI governance runtime.
+
+Key sections:
+
+- **governance-runtime/**  
+  Enterprise and platform-facing documentation describing the AI Governance Runtime:  
+  auditability, admissibility, refusal, and regulator-ready deployment.
+
+- **AURORA_HEALTHCARE.md**  
+  A concrete healthcare proof-of-concept demonstrating governed refusal and audit trails.
+
+- **Kernel documentation**  
+  Architectural and implementation details for the Aurora Governor.
+
 # Aurora Governor
 
 **Decision-admissibility governance for AI systems.**  
