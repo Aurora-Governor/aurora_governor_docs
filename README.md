@@ -26,6 +26,10 @@ Determines when an AI system is **not permitted to act**, and proves why.
 📘 **Aurora Governor Docs**  
 https://milarien.github.io/aurora_governor_docs/
 
+Epistemic Legitimacy & Governed Refusal
+The core argument for Aurora-PEF lives here:
+👉 https://github.com/milarien/Aurora-PEF/blob/main/EPISTEMIC_LEGITIMACY.md
+
 ---
 
 ## Demonstrations
