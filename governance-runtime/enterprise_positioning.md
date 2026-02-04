@@ -18,7 +18,7 @@ For commercial licensing, integration partnerships, or acquisition
 discussions:
 
 **Email:** margaret.stokes.ai@gmail.com  
-**LinkedIn:** [[Margaret Stokes]](https://www.linkedin.com/in/margaret-s-12830614/)]
+**LinkedIn:** [Margaret Stokes](https://www.linkedin.com/in/margaret-s-12830614/)
 
 ## Current Applications
 
