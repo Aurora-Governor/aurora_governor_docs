@@ -8,9 +8,6 @@ Key sections:
   Enterprise and platform-facing documentation describing the AI Governance Runtime:  
   auditability, admissibility, refusal, and regulator-ready deployment.
 
-- **AURORA_HEALTHCARE.md**  
-  A concrete healthcare proof-of-concept demonstrating governed refusal and audit trails.
-
 - **[Kernel documentation](https://github.com/Aurora-Governor/aurora_governor)**
   Architectural and implementation details live in the main aurora_governor repository.
 
@@ -30,13 +27,6 @@ Epistemic Legitimacy & Governed Refusal
 The core argument for Aurora-PEF lives here:
 
 👉 https://github.com/milarien/Aurora-PEF/blob/main/EPISTEMIC_LEGITIMACY.md
-
----
-
-## Demonstrations
-
-🩺 **[Aurora Healthcare POC — Before / After Demo](AURORA_HEALTHCARE.md)**  
-Black-box clinical output vs governed refusal/stop, with verifiable forensic ledger.
 
 ---
 
