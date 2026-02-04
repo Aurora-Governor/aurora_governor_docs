@@ -11,7 +11,7 @@ Key sections:
 - **AURORA_HEALTHCARE.md**  
   A concrete healthcare proof-of-concept demonstrating governed refusal and audit trails.
 
-- **[Kernel documentation](https://github.com/milarien/aurora_governor)**
+- **[Kernel documentation](https://github.com/Aurora-Governor/aurora_governor)**
   Architectural and implementation details live in the main aurora_governor repository.
 
 # Aurora Governor
@@ -24,7 +24,7 @@ Determines when an AI system is **not permitted to act**, and proves why.
 ## Public Documentation
 
 📘 **Aurora Governor Docs**  
-https://milarien.github.io/aurora_governor_docs/
+https://Aurora-Governor.github.io/aurora_governor_docs/
 
 Epistemic Legitimacy & Governed Refusal
 The core argument for Aurora-PEF lives here:
