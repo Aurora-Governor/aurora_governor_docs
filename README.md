@@ -26,7 +26,7 @@ https://Aurora-Governor.github.io/aurora_governor_docs/
 Epistemic Legitimacy & Governed Refusal
 The core argument for Aurora-PEF lives here:
 
-👉 https://github.com/milarien/Aurora-PEF/blob/main/EPISTEMIC_LEGITIMACY.md
+👉 https://github.com/Aurora-Governor/Aurora-PEF/blob/main/EPISTEMIC_LEGITIMACY.md
 
 ---
 
