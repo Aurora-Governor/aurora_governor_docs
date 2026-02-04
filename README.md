@@ -11,8 +11,8 @@ Key sections:
 - **AURORA_HEALTHCARE.md**  
   A concrete healthcare proof-of-concept demonstrating governed refusal and audit trails.
 
-- **Kernel documentation**  
-  Architectural and implementation details for the Aurora Governor.
+- **[Kernel documentation](https://github.com/milarien/aurora_governor)**
+  Architectural and implementation details live in the main aurora_governor repository.
 
 # Aurora Governor
 
@@ -42,7 +42,7 @@ Black-box clinical output vs governed refusal/stop, with verifiable forensic led
 
 ## Commercial
 
-📄 **[Commercial Prospectus](COMMERCIAL.md)**  
+📄 **[Enterprise Positioning](governance-runtime/ai_governance_runtime_enterprise_positioning.md)**
 Problem statement · solution architecture · proof · IP posture · availability.
 
 ---

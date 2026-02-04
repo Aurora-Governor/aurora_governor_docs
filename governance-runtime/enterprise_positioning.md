@@ -3,6 +3,7 @@ layout: default
 title: Commercial
 ---
 
+> **Note:** This is a brief licensing stub. For the full enterprise positioning document, see [ai_governance_runtime_enterprise_positioning.md](ai_governance_runtime_enterprise_positioning.md).
 
 # Commercial Use
 
